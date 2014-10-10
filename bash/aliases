@@ -1,0 +1,6 @@
+alias ls='ls -GF'
+
+alias be='bundle exec'
+
+# misc
+alias reload='. ~/.bash_profile'
