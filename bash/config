@@ -23,3 +23,6 @@ function parse_git_branch {
 
 export PS1="$YELLOW\w$GREEN \$(parse_git_branch)$DEFAULT\$ "
 export HISTCONTROL=ignoredups
+
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
